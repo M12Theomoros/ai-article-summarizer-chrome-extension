@@ -24,17 +24,24 @@ A lightweight and privacy-friendly Chrome extension that uses **Gemini AI** to s
 ---
 
 ## 📁 Project Structure
-
+```
 📦 ai-article-summarizer-extension
 ├── manifest.json       # Extension configuration (permissions, background, etc.)
-├── background.js       # Triggers setup tab on install
-├── popup.html          # Interface shown when icon is clicked
-├── popup.js            # Handles fetching, summarizing, and display
-├── options.html        # Setup page to enter and save API key
-├── options.js          # Logic to save/load key in localStorage
-├── content.js          # Extracts article text from the current webpage
-├── icon.png            # Icon displayed in the Chrome toolbar
 
+├── background.js       # Triggers setup tab on install
+
+├── popup.html          # Interface shown when icon is clicked
+
+├── popup.js            # Handles fetching, summarizing, and display
+
+├── options.html        # Setup page to enter and save API key
+
+├── options.js          # Logic to save/load key in localStorage
+
+├── content.js          # Extracts article text from the current webpage
+
+├── icon.png            # Icon displayed in the Chrome toolbar
+```
 ---
 
 ## 🚀 Getting Started
@@ -42,6 +49,7 @@ A lightweight and privacy-friendly Chrome extension that uses **Gemini AI** to s
 ### 1. Clone the repository
 
 `git clone https://github.com/your-username/ai-article-summarizer-extension.git`
+
 `cd ai-article-summarizer-extension`
 
 ### 2. Load the Extension in Chrome
