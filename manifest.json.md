@@ -19,20 +19,21 @@
   `"permissions": ["scripting", "activeTab", "storage"],`
 
   This section defines what happens when the user clicks the extension icon in the toolbar.  
-  `"action": {`
-
+  `"action":` `{`
+  
     This HTML file will open as a small window (popup) when the user clicks the extension icon.  
     `"default_popup": "popup.html",`
     
     This is the icon that will be shown for the extension in the browser toolbar.  
     `"default_icon": "icon.png"`
+
   `},`
 
   This section lets to automatically run a JavaScript file (`content.js`) on every page the user visits.  
   It's useful for scanning or modifying webpage content.  
   `"content_scripts": [`
     `{`
-    
+
       This means the script should run on all URLs/websites.  
       `"matches": ["<all_urls>"],`
 
